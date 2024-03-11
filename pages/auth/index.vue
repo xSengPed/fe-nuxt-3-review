@@ -6,7 +6,7 @@
     <p>
       {{ person.name }}
       {{ person.age }}
-      <button @click="ageUp">Age Up</button>
+      <button class="btn" @click="ageUp">Age Up</button>
     </p>
   </div>
 </template>
